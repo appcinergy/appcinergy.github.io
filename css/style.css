@@ -4,6 +4,26 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+.notification {
+  background-color: rgba(85, 85, 85, 0);
+  color: white;
+  width: 65%;
+  text-decoration: none;
+  padding: 0.5vw 0.5vw;
+  position: relative;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -0.2vw;
+  right: -0.2vw;
+  padding: -0.5vw -0.5vw;
+  border-radius: 50%;
+  background: rgba(255, 0, 0, 0.66);
+  color: white;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
